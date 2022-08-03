@@ -1,2 +1,2 @@
 # rsschool-cv
-CV
+[CV][https://johngaalt.github.io/rsschool-cv/cv]

@@ -1,4 +1,4 @@
-[rsschool-cv][]
+[rsschool-cv][https://github.com/johngaalt/rsschool-cv.git]
 # **Anton Gulko**
 
 ## **Contact info:**
@@ -23,7 +23,7 @@
   * GitHub/Git
 
   ## **Code example**
-  
+
 
 ## **Education**
   * Komi State Pedagogical Institute(left after 2 year)
