@@ -17,8 +17,8 @@
   My life goal is self-development.
 
 ## **Skills**
-  * Html
-  * Css
+  * Html(Code Basics)
+  * Css(Code Basics)
   * JavaScript(Fundamentals)
   * GitHub/Git
 
