@@ -11,7 +11,7 @@
 <link href="./style.css" rel="stylesheet">
 
 </head>
-<header>
+<header class="header">
 <div class="cv">
     <h1 class="h2color">Anton Gulko</h1> 
 </div>
@@ -32,7 +32,7 @@
 <div class="avatar"></div>
 </header>
 
-<main>
+<main class="mainBackground">
   <base target="_blank">
 <div class="about-me-text">
   <h2 class="h2color">About me</h2>
@@ -61,6 +61,10 @@
   function showMessage(text, name){ <br>
     console.log(`&{text}, {name}!`); <br>
     setTimeout(showMessage, 3000, 'Who_is','John_Galt' ); <br>
+  } <br>
+
+  function mergeArrays(arr1, arr2) { <br>
+    return Array.from(new Set(arr1.concat(arr2).sort((a,b) => (a-b))));<br>
   } <br>
 </code>
 </div>

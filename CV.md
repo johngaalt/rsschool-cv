@@ -19,11 +19,18 @@
 ## **Skills**
   * Html(Code Basics)
   * Css(Code Basics)
-  * JavaScript(Fundamentals)
+  * JavaScript for beginners(Code Basics)
   * GitHub/Git
 
   ## **Code example**
+  ```function showMessage(text, name){ 
+    console.log(`&{text}, {name}!`); 
+    setTimeout(showMessage, 3000, 'Who_is','John_Galt' ); 
+  } 
 
+  function mergeArrays(arr1, arr2) {
+  return Array.from(new Set(arr1.concat(arr2).sort((a,b) => (a-b))));
+}```
 
 ## **Education**
   * Komi State Pedagogical Institute(left after 2 year)
