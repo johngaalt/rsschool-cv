@@ -17,18 +17,19 @@
   My life goal is self-development.
 
 ## **Skills**
-  * Html(Code Basics)
-  * Css(Code Basics)
-  * JavaScript for beginners(Code Basics)
+  * Html
+  * Css
+  * JavaScript(Fundamentals)
   * GitHub/Git
 
-  ## **Code example**
-  ```function showMessage(text, name){ 
-    console.log(`&{text}, {name}!`); 
-    setTimeout(showMessage, 3000, 'Who_is','John_Galt' ); 
-  } 
+## **Code example**
+```
+function showMessage(text, name){
+  console.log(`&{text}, {name}!`); 
+  setTimeout(showMessage, 3000, 'Who_is','John_Galt' ); 
+} 
 
-  function mergeArrays(arr1, arr2) {
+function mergeArrays(arr1, arr2) {
   return Array.from(new Set(arr1.concat(arr2).sort((a,b) => (a-b))));
 }
 ```
