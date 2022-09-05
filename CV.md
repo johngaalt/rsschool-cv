@@ -2,7 +2,7 @@
 # **Anton Gulko**
 
 ## **Contact info:**
-
+  * Discord: johngaalt#0973
   * Phone: +90 507 183-79-36
   * E-mail: rajon777666@gmail.com
   * GitHub: johngaalt
@@ -23,6 +23,16 @@
   * GitHub/Git
 
   ## **Code example**
+  ```
+  function showMessage(text, name){
+  console.log(`&{text}, {name}!`); 
+  setTimeout(showMessage, 3000, 'Who_is','John_Galt' ); 
+} 
+
+function mergeArrays(arr1, arr2) {
+  return Array.from(new Set(arr1.concat(arr2).sort((a,b) => (a-b))));
+}
+```
 
 
 ## **Education**
