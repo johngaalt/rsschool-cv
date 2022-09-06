@@ -1,4 +1,4 @@
-[rsschool-cv][https://johngaalt.github.io/rsschool-cv/cv]
+[rsschool-cv](https://johngaalt.github.io/rsschool-cv/cv)
 # **Anton Gulko**
 
 ## **Contact info:**
