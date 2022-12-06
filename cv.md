@@ -1,13 +1,14 @@
 [rsschool-cv](https://johngaalt.github.io/rsschool-cv/cv)
+
 # **Anton Gulko**
 
 ## **Contact info:**
 
-* Discord: johngaalt#0973
-* Phone: +90 507 183-79-36
-* E-mail: rajon777666@gmail.com
-* GitHub: johngaalt
-* Telegram: johngaalt1984
+- Discord: johngaalt#0973
+- Phone: +90 507 183-79-36
+- E-mail: rajon777666@gmail.com
+- GitHub: johngaalt
+- Telegram: johngaalt1984
 
 ## **About me**
 
@@ -20,33 +21,32 @@ My life goal is self-development.
 
 ## **Skills**
 
-* Html
-* Css
-* JavaScript(Fundamentals)
-* GitHub/Git
+- Html
+- Css
+- JavaScript(Fundamentals)
+- GitHub/Git
+- Sass/Scss
 
 ## **Code example**
 
 ```JS
 function showMessage(text, name){
-  console.log(`&{text}, {name}!`); 
-  setTimeout(showMessage, 3000, 'Who_is','John_Galt' ); 
-} 
+  console.log(`&{text}, {name}!`);
+  setTimeout(showMessage, 3000, 'Who_is','John_Galt' );
+}
 
 function mergeArrays(arr1, arr2) {
   return Array.from(new Set(arr1.concat(arr2).sort((a,b) => (a-b))));
 }
 ```
 
-
 ## **Education**
 
-* Komi State Pedagogical Institute(left after 2 year)
-  + The Faculty of foreign languages (Eng-Ger)
+- Komi State Pedagogical Institute
+  - The Faculty of foreign languages (Eng-Ger)
 
 ## **Languages**
 
-* English - B2
-* Russian - Native
-* Komi - Native
-
+- English - B2
+- Russian - Native
+- Komi - Native
