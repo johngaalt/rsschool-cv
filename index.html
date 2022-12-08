@@ -8,27 +8,33 @@
       href="https://fonts.googleapis.com/css2?family=Alexandria&family=Lato&family=Rubik+Distressed&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>CV</title>
   </head>
   <body>
     <header class="header">
-      <ul class="header__navigation">
-        <li class="header__navigation-item">
-          <a href="#contacts">Contacts</a>
-        </li>
-        <li class="header__navigation-item"><a href="#about">About me</a></li>
-        <li class="header__navigation-item"><a href="#skills">Skills</a></li>
-        <li class="header__navigation-item">
-          <a href="#education">Education</a>
-        </li>
-        <li class="header__navigation-item">
-          <a href="#code">Code</a>
-        </li>
-        <li class="header__navigation-item">
-          <a href="#languages">Languages</a>
-        </li>
-      </ul>
+      <nav>
+        <ul class="header__navigation">
+          <li class="header__navigation-item">
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li class="header__navigation-item"><a href="#about">About me</a></li>
+          <li class="header__navigation-item"><a href="#skills">Skills</a></li>
+          <li class="header__navigation-item">
+            <a href="#education">Education</a>
+          </li>
+          <li class="header__navigation-item">
+            <a href="#code">Code</a>
+          </li>
+          <li class="header__navigation-item">
+            <a href="#languages">Languages</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="main">
       <div class="contacts" id="contacts">
@@ -38,21 +44,16 @@
             class="image-wrapper__avatar"
             src="./assets/img/JG.jfif"
             alt="avatar"
-            border="0"
           />
         </div>
       </div>
       <div class="links">
-        <h1 class="links__heading">Contacts</h1>
+        <h2 class="links__heading">Contacts</h2>
         <ul class="links__list">
           <li class="links__list-item">
             <span
               ><a href="https://github.com/johngaalt" target="_blank">
-                <span
-                  ><img
-                    src="./assets/icons/github.png"
-                    alt="github"
-                    border="0" /></span
+                <span><img src="./assets/icons/github.png" alt="github" /></span
                 >GitHub: johngaalt</a
               ></span
             >
@@ -63,8 +64,7 @@
                 <span
                   ><img
                     src="./assets/icons/discord-logo.png"
-                    alt="discord-icon"
-                    border="0" /></span
+                    alt="discord-icon" /></span
                 >Discord: johngaalt#0973</a
               ></span
             >
@@ -75,8 +75,7 @@
                 <span
                   ><img
                     src="./assets/icons/composing-mail.png"
-                    alt="mail-icon"
-                    border="0" /></span
+                    alt="mail-icon" /></span
                 >Email: rajon777666@gmail.com</a
               ></span
             >
@@ -87,8 +86,7 @@
                 <span
                   ><img
                     src="./assets/icons/smartphone.png"
-                    alt="cellphone-icon"
-                    border="0" /></span
+                    alt="cellphone-icon" /></span
                 >Phone: +90 507 183-79-36</a
               ></span
             >
@@ -99,8 +97,7 @@
                 <span
                   ><img
                     src="./assets/icons/telegram-app.png"
-                    alt="telegram-icon"
-                    border="0" /></span
+                    alt="telegram-icon" /></span
                 >Telegram: johngaalt1984</a
               ></span
             >
@@ -108,7 +105,7 @@
         </ul>
       </div>
       <div class="about" id="about">
-        <h1 class="about__heading">About myself</h1>
+        <h2 class="about__heading">About myself</h2>
         <p class="about__text">
           My name is Anton and I am a future junior frontend developer. The year
           2022 has made changes in my life so I decided to change my profession.
@@ -123,7 +120,7 @@
         </p>
       </div>
       <div class="skills" id="skills">
-        <h1 class="skills__heading">Skills</h1>
+        <h2 class="skills__heading">Skills</h2>
         <ul class="skills__list">
           <li class="skills__list-item">
             <span><img src="./assets/icons/css3.png" alt="css" /></span> Css3
@@ -149,7 +146,7 @@
         </ul>
       </div>
       <div class="language" id="languages">
-        <h1 class="skills__heading">Languages</h1>
+        <h2 class="skills__heading">Languages</h2>
         <ul class="skills__list">
           <li class="skills__list-item">
             <span><img src="./assets/icons/usa.png" alt="usa-flag" /></span
@@ -166,8 +163,24 @@
           </li>
         </ul>
       </div>
+      <div class="projects">
+        <h2 class="skills__heading">Projects</h2>
+        <ul class="projects__list">
+          <li class="projects__list-item">
+            At this project I should have been implemented an application where
+            guests able to guess a song after listening.
+          </li>
+          <li class="projects__list-item">
+            <a
+              href="https://rolling-scopes-school.github.io/johngaalt-JSFE2022Q3/"
+              target="_blank"
+              >Songbird</a
+            >
+          </li>
+        </ul>
+      </div>
       <div class="code" id="code">
-        <h1 class="skills__heading">Code</h1>
+        <h2 class="skills__heading">Code</h2>
         <pre class="code__wrapper">
           <code class="code__wrapper-text">
             function showMessage(text, name){
@@ -178,9 +191,9 @@
         </pre>
       </div>
       <div class="education" id="education">
-        <h1 class="skills__heading">Education</h1>
+        <h2 class="skills__heading">Education</h2>
         <ul class="education__list">
-          Komi State Pedagogical Institute
+          <li>Komi State Pedagogical Institute</li>
           <li class="education__list-item">
             Faculty of foreign languages (Eng-Ger)
           </li>
@@ -189,17 +202,12 @@
     </main>
     <footer class="footer">
       <ul class="footer__list">
-        <li class="footer__list-item">&copy 2022</li>
+        <li class="footer__list-item">&copy; 2022</li>
         <li class="footer__list-item">
-          <a
-            href="https://github.com/johngaalt"
-            target="_blank"
-            class="git-link"
-            >johngaalt</a
-          >
+          <a href="https://github.com/johngaalt" target="_blank">johngaalt</a>
         </li>
         <li class="footer__list-item">
-          <a href="https://rs.school/js/" target="_blank" class="rss-link">
+          <a href="https://rs.school/js/" target="_blank">
             <img src="./assets/icons/rs_school_js.svg" alt="rs_school_js" />
           </a>
         </li>

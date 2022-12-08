@@ -2,10 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
+h1,
+h2 {
   padding: 0;
   margin: 0;
   font-size: 1.5em;
+  font-family: "Diplomata SC", cursive;
 }
 
 body {
@@ -33,9 +35,9 @@ a {
   background-color: rgba(255, 255, 255, 0.5);
   height: 5vh;
   margin-top: 5vh;
-  border: 2px black solid;
   padding-top: 0.5vh;
   box-shadow: 10px 14px 35px 1px rgba(0, 0, 0, 0.65) inset;
+  border-bottom: 1px #000000 solid;
 }
 .header__navigation {
   display: flex;
@@ -64,7 +66,7 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 40% 60%);
   grid-auto-rows: 1fr;
-  grid-template-areas: "contacts about" "links skills" "language skills" "education code";
+  grid-template-areas: "contacts about" "links skills" "language projects" "education code";
 }
 .main .contacts {
   grid-area: contacts;
@@ -118,7 +120,6 @@ a {
   padding: 2vh;
 }
 .main .skills {
-  border: 2px black solid;
   grid-area: skills;
   display: flex;
   justify-content: start;
@@ -147,12 +148,22 @@ a {
   margin-top: 10px;
 }
 .main .language {
-  border: 2px black solid;
   grid-area: language;
   padding: 2vh;
 }
+.main .projects {
+  grid-area: projects;
+  padding: 2vh;
+}
+.main .projects__list {
+  margin: 0;
+  padding: 0;
+}
+.main .projects__list-item {
+  margin: 10px 0 20px 0;
+  list-style-type: square;
+}
 .main .code {
-  border: 2px black solid;
   grid-area: code;
   padding: 2vh;
 }
@@ -160,7 +171,6 @@ a {
   margin: 0;
 }
 .main .education {
-  border: 2px black solid;
   grid-area: education;
   padding: 2vh;
 }
@@ -178,22 +188,25 @@ a {
   background-color: rgba(255, 255, 255, 0.5);
   height: 5vh;
   margin-bottom: 5vh;
-  border: 2px black solid;
   box-shadow: -9px -9px 37px 0px rgba(0, 0, 0, 0.75) inset;
+  padding-top: 0.5vh;
+  border-top: 1px black solid;
 }
 .footer__list {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 .footer__list-item {
   list-style: none;
 }
-.footer .git-link {
+.footer__list-item img {
+  width: 50px;
+  height: 50px;
+}
+.footer__list item a {
   color: #000000;
   text-decoration: none;
-}
-.footer .rss-link {
-  width: 35px;
-  height: 35px;
 }/*# sourceMappingURL=style.css.map */
