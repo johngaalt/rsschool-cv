@@ -32,60 +32,177 @@
     </header>
     <main class="main">
       <div class="contacts" id="contacts">
-        <div class="contacts__image-wrapper">
-          <img class="avatar" src="./assets/img/JG.jfif" alt="avatar" />
+        <div class="image-wrapper">
+          <h1 class="image-wrapper__heading">Anton Gulko</h1>
+          <img
+            class="image-wrapper__avatar"
+            src="./assets/img/JG.jfif"
+            alt="avatar"
+            border="0"
+          />
         </div>
-        <ul class="contacts__list">
-          <li class="contacts__list-item">
-            <a href="">
-              <img src="./assets/icons/github.png" alt="git-icon" />GitHub</a
+      </div>
+      <div class="links">
+        <h1 class="links__heading">Contacts</h1>
+        <ul class="links__list">
+          <li class="links__list-item">
+            <span
+              ><a href="https://github.com/johngaalt" target="_blank">
+                <span
+                  ><img
+                    src="./assets/icons/github.png"
+                    alt="github"
+                    border="0" /></span
+                >GitHub: johngaalt</a
+              ></span
             >
           </li>
-          <li class="contacts__list-item">
-            <a href="">
-              <img
-                src="./assets/icons/discord-logo.png"
-                alt="discord-icon"
-              />Discord</a
+          <li class="links__list-item">
+            <span
+              ><a href="https://discord.com/" target="_blank">
+                <span
+                  ><img
+                    src="./assets/icons/discord-logo.png"
+                    alt="discord-icon"
+                    border="0" /></span
+                >Discord: johngaalt#0973</a
+              ></span
             >
           </li>
-          <li class="contacts__list-item">
-            <a href="">
-              <img
-                src="./assets/icons/composing-mail.png"
-                alt="mail-icon"
-              />Email</a
+          <li class="links__list-item">
+            <span
+              ><a href="https://mail.google.com/mail/" target="_blank">
+                <span
+                  ><img
+                    src="./assets/icons/composing-mail.png"
+                    alt="mail-icon"
+                    border="0" /></span
+                >Email: rajon777666@gmail.com</a
+              ></span
             >
           </li>
-          <li class="contacts__list-item">
-            <a href="">
-              <img
-                src="./assets/icons/smartphone.png"
-                alt="cellphone-icon"
-              />Phone</a
+          <li class="links__list-item">
+            <span
+              ><a href="">
+                <span
+                  ><img
+                    src="./assets/icons/smartphone.png"
+                    alt="cellphone-icon"
+                    border="0" /></span
+                >Phone: +90 507 183-79-36</a
+              ></span
             >
           </li>
-          <li class="contacts__list-item">
-            <a href="">
-              <img
-                src="./assets/icons/telegram-app.png"
-                alt="telegram-icon"
-              />Telegram</a
+          <li class="links__list-item">
+            <span
+              ><a href="https://telegram.org/" target="_blank">
+                <span
+                  ><img
+                    src="./assets/icons/telegram-app.png"
+                    alt="telegram-icon"
+                    border="0" /></span
+                >Telegram: johngaalt1984</a
+              ></span
             >
           </li>
         </ul>
       </div>
-      <div class="main__about" id="about"></div>
-      <div class="main__skills" id="skills"></div>
-      <div class="main__language" id="languages"></div>
-      <div class="main__code" id="code"></div>
-      <div class="main__education" id="education"></div>
+      <div class="about" id="about">
+        <h1 class="about__heading">About myself</h1>
+        <p class="about__text">
+          My name is Anton and I am a future junior frontend developer. The year
+          2022 has made changes in my life so I decided to change my profession.
+          I have eight years of work experience in sales. Past 3 years I have
+          been working remotely as a sales manager. I relocated to another
+          county and started learning JavaScript. At the time I writing it I am
+          a complete newbie. Web development for me is a new challenge, however
+          it is interesting and gives a lot of opportunities to improve my
+          skills as a professional and of course my personality which is also
+          significant. My strengths are to be a team player, to deal with
+          people, accuracy. My life goal is self-development.
+        </p>
+      </div>
+      <div class="skills" id="skills">
+        <h1 class="skills__heading">Skills</h1>
+        <ul class="skills__list">
+          <li class="skills__list-item">
+            <span><img src="./assets/icons/css3.png" alt="css" /></span> Css3
+          </li>
+          <li class="skills__list-item">
+            <span><img src="./assets/icons/sass.png" alt="sass-logo" /></span>
+            Sass/Scss
+          </li>
+          <li class="skills__list-item">
+            <span><img src="./assets/icons/html.svg" alt="html-logo" /></span>
+            Html5
+          </li>
+          <li class="skills__list-item">
+            <span
+              ><img src=".//assets/icons/javascript.svg" alt="js-logo"
+            /></span>
+            JavaScript(Fundamentals)
+          </li>
+          <li class="skills__list-item">
+            <span><img src=".//assets/icons/github.png" alt="git-logo" /></span>
+            GitHub/Git
+          </li>
+        </ul>
+      </div>
+      <div class="language" id="languages">
+        <h1 class="skills__heading">Languages</h1>
+        <ul class="skills__list">
+          <li class="skills__list-item">
+            <span><img src="./assets/icons/usa.png" alt="usa-flag" /></span
+            >English - B2
+          </li>
+          <li class="skills__list-item">
+            <span><img src="./assets/icons/komi.png" alt="komi-flag" /></span
+            >Komi - Native
+          </li>
+          <li class="skills__list-item">
+            <span
+              ><img src="./assets/icons/russia.jpg" alt="russia-flag" /></span
+            >Russian - Native
+          </li>
+        </ul>
+      </div>
+      <div class="code" id="code">
+        <h1 class="skills__heading">Code</h1>
+        <pre class="code__wrapper">
+          <code class="code__wrapper-text">
+            function showMessage(text, name){
+              console.log(`&{text}, {name}!`); 
+              setTimeout(showMessage, 3000, 'Who_is','John_Galt' ); 
+            } 
+          </code>
+        </pre>
+      </div>
+      <div class="education" id="education">
+        <h1 class="skills__heading">Education</h1>
+        <ul class="education__list">
+          Komi State Pedagogical Institute
+          <li class="education__list-item">
+            Faculty of foreign languages (Eng-Ger)
+          </li>
+        </ul>
+      </div>
     </main>
     <footer class="footer">
       <ul class="footer__list">
-        <li class="footer__list-item"></li>
-        <li class="footer__list-item"></li>
-        <li class="footer__list-item"></li>
+        <li class="footer__list-item">&copy 2022</li>
+        <li class="footer__list-item">
+          <a
+            href="https://github.com/johngaalt"
+            target="_blank"
+            class="git-link"
+            >johngaalt</a
+          >
+        </li>
+        <li class="footer__list-item">
+          <a href="https://rs.school/js/" target="_blank" class="rss-link">
+            <img src="./assets/icons/rs_school_js.svg" alt="rs_school_js" />
+          </a>
+        </li>
       </ul>
     </footer>
   </body>
