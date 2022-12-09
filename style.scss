@@ -1,3 +1,5 @@
+@import "./mixins";
+
 $linear-color: linear-gradient(
   48deg,
   rgba(255, 255, 255, 1) 0%,
@@ -14,12 +16,12 @@ h2 {
   padding: 0;
   margin: 0;
   font-size: 1.5em;
-  font-family: "Diplomata SC", cursive;
+  font-family: "Zen Dots", cursive;
 }
 
 body {
   margin: 0 auto;
-  background: url(./assets/img/5195ebb8c5f9772deda82aa2937134d3.jpg) no-repeat;
+  background: url(./assets/img/desk-2.jpg) no-repeat;
   padding: 0 25vw 0 15vw;
   background-position: center;
 }
@@ -73,7 +75,6 @@ a {
 
 .main {
   background-color: rgba(255, 255, 255, 0.5);
-  height: 80vh;
   display: grid;
   grid-template-columns: repeat(2, 40% 60%);
   grid-auto-rows: 1fr;
@@ -82,6 +83,20 @@ a {
     "links skills"
     "language projects"
     "education code";
+
+  @include for-small-desktop {
+    grid-template-areas:
+      "contacts contacts"
+      "about about"
+      "links links"
+      "skills skills"
+      "language language"
+      "projects projects"
+      "education education"
+      "code code";
+
+    grid-auto-rows: 0.5fr;
+  }
 
   .contacts {
     grid-area: contacts;
