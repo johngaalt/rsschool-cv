@@ -20,39 +20,45 @@
       <nav>
         <ul class="header__navigation">
           <li class="header__navigation-item">
-            <a href="#contacts">Contacts</a>
-          </li>
-          <li class="header__navigation-item"><a href="#about">About me</a></li>
-          <li class="header__navigation-item"><a href="#skills">Skills</a></li>
-          <li class="header__navigation-item">
-            <a href="#education">Education</a>
+            <a class="fancy-hover" href="#contacts">Contacts</a>
           </li>
           <li class="header__navigation-item">
-            <a href="#code">Code</a>
+            <a class="fancy-hover" href="#skills">Skills</a>
           </li>
           <li class="header__navigation-item">
-            <a href="#languages">Languages</a>
+            <a class="fancy-hover" href="#languages">Languages</a>
+          </li>
+          <li class="header__navigation-item">
+            <a class="fancy-hover" href="#projects">Projects</a>
+          </li>
+          <li class="header__navigation-item">
+            <a class="fancy-hover" href="#education">Education</a>
+          </li>
+          <li class="header__navigation-item">
+            <a class="fancy-hover" href="#code">Code</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main">
-      <div class="contacts" id="contacts">
-        <div class="image-wrapper">
-          <h1 class="image-wrapper__heading">Anton Gulko</h1>
-          <img
-            class="image-wrapper__avatar"
-            src="./assets/img/JG.jfif"
-            alt="avatar"
-          />
-        </div>
+      <div class="photo-wrapper" id="contacts">
+        <h1 class="photo-wrapper__heading fancy-hover">Anton Gulko</h1>
+        <img
+          class="photo-wrapper__avatar"
+          src="./assets/img/JG.jfif"
+          alt="avatar"
+        />
       </div>
       <div class="links">
         <h2 class="links__heading">Contacts</h2>
         <ul class="links__list">
           <li class="links__list-item">
             <span
-              ><a href="https://github.com/johngaalt" target="_blank">
+              ><a
+                class="fancy-hover"
+                href="https://github.com/johngaalt"
+                target="_blank"
+              >
                 <span><img src="./assets/icons/github.png" alt="github" /></span
                 >GitHub: johngaalt</a
               ></span
@@ -60,7 +66,11 @@
           </li>
           <li class="links__list-item">
             <span
-              ><a href="https://discord.com/" target="_blank">
+              ><a
+                class="fancy-hover"
+                href="https://discord.com/"
+                target="_blank"
+              >
                 <span
                   ><img
                     src="./assets/icons/discord-logo.png"
@@ -71,7 +81,11 @@
           </li>
           <li class="links__list-item">
             <span
-              ><a href="https://mail.google.com/mail/" target="_blank">
+              ><a
+                class="fancy-hover"
+                href="https://mail.google.com/mail/"
+                target="_blank"
+              >
                 <span
                   ><img
                     src="./assets/icons/composing-mail.png"
@@ -82,7 +96,7 @@
           </li>
           <li class="links__list-item">
             <span
-              ><a href="">
+              ><a class="fancy-hover" href="">
                 <span
                   ><img
                     src="./assets/icons/smartphone.png"
@@ -93,7 +107,11 @@
           </li>
           <li class="links__list-item">
             <span
-              ><a href="https://telegram.org/" target="_blank">
+              ><a
+                class="fancy-hover"
+                href="https://telegram.org/"
+                target="_blank"
+              >
                 <span
                   ><img
                     src="./assets/icons/telegram-app.png"
@@ -106,7 +124,7 @@
       </div>
       <div class="about" id="about">
         <h2 class="about__heading">About myself</h2>
-        <p class="about__text">
+        <p class="about__text fancy-animation card">
           My name is Anton and I am a future junior frontend developer. The year
           2022 has made changes in my life so I decided to change my profession.
           I have eight years of work experience in sales. Past 3 years I have
@@ -163,7 +181,7 @@
           </li>
         </ul>
       </div>
-      <div class="projects">
+      <div class="projects" id="projects">
         <h2 class="skills__heading">Projects</h2>
         <ul class="projects__list">
           <li class="projects__list-item">
@@ -172,8 +190,14 @@
           </li>
           <li class="projects__list-item">
             <a
+              class="fancy-hover"
               href="https://rolling-scopes-school.github.io/johngaalt-JSFE2022Q3/"
               target="_blank"
+            >
+              <span
+                ><img
+                  src="./assets/icons/songbird.png"
+                  alt="songbird-icon" /></span
               >Songbird</a
             >
           </li>
@@ -183,10 +207,10 @@
         <h2 class="skills__heading">Code</h2>
         <pre class="code__wrapper">
           <code class="code__wrapper-text">
-            function showMessage(text, name){
-              console.log(`&{text}, {name}!`); 
-              setTimeout(showMessage, 3000, 'Who_is','John_Galt' ); 
-            } 
+            function digitize(n) {
+  
+              return n.toString().split('').reverse().map(Number)
+            }
           </code>
         </pre>
       </div>
@@ -204,14 +228,20 @@
       <ul class="footer__list">
         <li class="footer__list-item">&copy; 2022</li>
         <li class="footer__list-item">
-          <a href="https://github.com/johngaalt" target="_blank">johngaalt</a>
+          <a
+            class="fancy-hover"
+            href="https://github.com/johngaalt"
+            target="_blank"
+            >johngaalt</a
+          >
         </li>
         <li class="footer__list-item">
-          <a href="https://rs.school/js/" target="_blank">
+          <a class="fancy-hover" href="https://rs.school/js/" target="_blank">
             <img src="./assets/icons/rs_school_js.svg" alt="rs_school_js" />
           </a>
         </li>
       </ul>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
