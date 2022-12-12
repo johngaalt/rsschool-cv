@@ -25,6 +25,10 @@ My life goal is self-development.
 - Css
 - JavaScript(Fundamentals)
 - GitHub/Git
+  <<<<<<< HEAD
+  =======
+- Sass/Scss
+  > > > > > > > origin/gh-pages
 
 ## **Code example**
 
