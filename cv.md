@@ -43,7 +43,7 @@ function mergeArrays(arr1, arr2) {
 ## **Education**
 
 - Komi State Pedagogical Institute
-  - The Faculty of foreign languages (Eng-Ger)
+  - Faculty of foreign languages (Eng-Ger)
 
 ## **Languages**
 
