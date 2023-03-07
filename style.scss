@@ -11,6 +11,12 @@ html {
   scroll-behavior: smooth;
 }
 
+header,
+main,
+footer {
+  margin: 0 auto;
+}
+
 h1,
 h2 {
   padding: 0;
@@ -20,7 +26,6 @@ h2 {
 }
 
 body {
-  margin: 0 auto;
   background: url(./assets/img/desk-2.jpg) no-repeat;
   padding: 0 25vw 0 15vw;
   background-position: center;
